@@ -1,0 +1,338 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_002{font-family:Arial,serif;font-size:14.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Arial,serif;font-size:14.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_003{font-family:Arial,serif;font-size:12.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Arial,serif;font-size:12.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Arial,serif;font-size:11.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Arial,serif;font-size:11.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_005{font-family:Arial,serif;font-size:11.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_005{font-family:Arial,serif;font-size:11.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_006{font-family:Arial,serif;font-size:9.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Arial,serif;font-size:9.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Arial,serif;font-size:8.0px;color:rgb(178,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Arial,serif;font-size:8.0px;color:rgb(178,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Arial,serif;font-size:5.0px;color:rgb(178,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Arial,serif;font-size:5.0px;color:rgb(178,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_009{font-family:Arial,serif;font-size:8.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Arial,serif;font-size:8.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_010{font-family:Arial,serif;font-size:9.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_010{font-family:Arial,serif;font-size:9.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_011{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_011{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_018{font-family:Arial,serif;font-size:9.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: line-through}
+div.cls_018{font-family:Arial,serif;font-size:9.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_019{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: line-through}
+div.cls_019{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_012{font-family:Arial,serif;font-size:6.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_012{font-family:Arial,serif;font-size:6.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_013{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_013{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_014{font-family:Arial,serif;font-size:8.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_014{font-family:Arial,serif;font-size:8.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_015{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_015{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_016{font-family:Arial,serif;font-size:11.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_016{font-family:Arial,serif;font-size:11.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_020{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_020{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_017{font-family:Arial,serif;font-size:7.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_017{font-family:Arial,serif;font-size:7.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="2bdb94ba-e4ca-11e9-9d71-0cc47a792c0a_id_2bdb94ba-e4ca-11e9-9d71-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-297px;top:0px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2bdb94ba-e4ca-11e9-9d71-0cc47a792c0a_id_2bdb94ba-e4ca-11e9-9d71-0cc47a792c0a_files/background1.jpg" width=595 height=841></div>
+<div style="position:absolute;left:70.30px;top:72.86px" class="cls_002"><span class="cls_002">Neutron stars & Nuclear Physics - Report</span></div>
+<div style="position:absolute;left:70.30px;top:95.18px" class="cls_003"><span class="cls_003">B8SM3701 Pierre Goux</span></div>
+<div style="position:absolute;left:70.30px;top:115.10px" class="cls_003"><span class="cls_003">July 24, 2019</span></div>
+<div style="position:absolute;left:70.30px;top:143.47px" class="cls_004"><span class="cls_004">(1)</span><span class="cls_005">中性子星の最大質量、白色矮星との比較</span></div>
+<div style="position:absolute;left:70.30px;top:163.35px" class="cls_006"><span class="cls_006">with a simple argument</span></div>
+<div style="position:absolute;left:70.30px;top:181.28px" class="cls_006"><span class="cls_006">Pauli’s exclusion principle shows that the fermionic particles in sufficiently</span></div>
+<div style="position:absolute;left:70.30px;top:193.23px" class="cls_006"><span class="cls_006">compressed matter would be forced into energy states so high that their</span></div>
+<div style="position:absolute;left:70.30px;top:205.19px" class="cls_006"><span class="cls_006">rest mass contribution would become negligible when compared with the</span></div>
+<div style="position:absolute;left:70.30px;top:217.14px" class="cls_006"><span class="cls_006">relativistic kinetic contribution. RKC is determined just by the relevant</span></div>
+<div style="position:absolute;left:70.30px;top:229.10px" class="cls_006"><span class="cls_006">quantum wavelength λ, which would be of the order of the mean interpar-</span></div>
+<div style="position:absolute;left:70.30px;top:238.79px" class="cls_006"><span class="cls_006">ticle separation. The corresponding pressure can be given by</span><span class="cls_007"><sup>1</sup></span></div>
+<div style="position:absolute;left:396.85px;top:242.05px" class="cls_008"><span class="cls_008"><sup>1</sup></span><span class="cls_009"> In terms of Planck units, with the re-</span></div>
+<div style="position:absolute;left:396.85px;top:252.01px" class="cls_009"><span class="cls_009">duced Planck constant h, the speed of</span></div>
+<div style="position:absolute;left:227.76px;top:260.26px" class="cls_006"><span class="cls_006">1</span></div>
+<div style="position:absolute;left:396.85px;top:261.98px" class="cls_009"><span class="cls_009">light c, and the gravitational constant</span></div>
+<div style="position:absolute;left:205.94px;top:265.96px" class="cls_006"><span class="cls_006">P</span><span class="cls_010">=</span></div>
+<div style="position:absolute;left:363.15px;top:266.33px" class="cls_006"><span class="cls_006">(1)</span></div>
+<div style="position:absolute;left:225.30px;top:272.21px" class="cls_006"><span class="cls_006">λ</span><span class="cls_011"><sup>4</sup></span></div>
+<div style="position:absolute;left:397.03px;top:271.94px" class="cls_009"><span class="cls_009">G all set equal to one</span></div>
+<div style="position:absolute;left:70.30px;top:283.16px" class="cls_006"><span class="cls_006">That pressure must be balanced by the pressure needed to resist gravity.</span></div>
+<div style="position:absolute;left:70.30px;top:295.12px" class="cls_006"><span class="cls_006">The pressure to resist gravity for a body of mass M will be given according</span></div>
+<div style="position:absolute;left:70.30px;top:307.07px" class="cls_006"><span class="cls_006">to the virial theorem roughly by</span></div>
+<div style="position:absolute;left:199.05px;top:323.35px" class="cls_006"><span class="cls_006">P</span><span class="cls_011"><sup>3</sup></span><span class="cls_010"> =</span><span class="cls_006"> M</span><span class="cls_011"><sup>2</sup></span><span class="cls_006">ρ</span><span class="cls_011"><sup>4</sup></span><span class="cls_006">,</span></div>
+<div style="position:absolute;left:363.16px;top:325.06px" class="cls_006"><span class="cls_006">(2)</span></div>
+<div style="position:absolute;left:70.30px;top:341.79px" class="cls_006"><span class="cls_006">where ρ is the density. This will be given by ρ</span><span class="cls_010"> =</span><span class="cls_006"> m/λ</span><span class="cls_011"><sup>3</sup></span><span class="cls_006">, where m is the</span></div>
+<div style="position:absolute;left:70.30px;top:355.00px" class="cls_006"><span class="cls_006">relevant mass per particle. The existence of the mass limit therefore comes</span></div>
+<div style="position:absolute;left:70.30px;top:366.96px" class="cls_006"><span class="cls_006">from merging the two equations :</span></div>
+<div style="position:absolute;left:396.85px;top:377.03px" class="cls_008"><span class="cls_008"><sup>2</sup></span><span class="cls_009"> The mass density is provided by</span></div>
+<div style="position:absolute;left:235.69px;top:382.78px" class="cls_006"><span class="cls_006">1</span></div>
+<div style="position:absolute;left:396.85px;top:387.00px" class="cls_009"><span class="cls_009">the nuclei in which the neutrons are</span></div>
+<div style="position:absolute;left:199.70px;top:388.48px" class="cls_006"><span class="cls_006">M</span><span class="cls_011"><sub>lim</sub></span><span class="cls_010"> =</span></div>
+<div style="position:absolute;left:363.15px;top:388.85px" class="cls_006"><span class="cls_006">(3)</span></div>
+<div style="position:absolute;left:232.45px;top:394.62px" class="cls_006"><span class="cls_006">m</span><span class="cls_011"><sup>2</sup></span></div>
+<div style="position:absolute;left:396.85px;top:396.96px" class="cls_009"><span class="cls_009">at most about as numerous as the</span></div>
+<div style="position:absolute;left:396.85px;top:406.92px" class="cls_009"><span class="cls_009">protons. Likewise the protons, for</span></div>
+<div style="position:absolute;left:70.30px;top:408.82px" class="cls_006"><span class="cls_006">From this, m can be taken to be given roughly by the neutron mass. In the</span></div>
+<div style="position:absolute;left:396.85px;top:416.89px" class="cls_009"><span class="cls_009">charge neutrality, must be exactly as</span></div>
+<div style="position:absolute;left:70.30px;top:420.78px" class="cls_006"><span class="cls_006">white dwarf case (that of the Chandrasekhar limit) for which the fermionic</span></div>
+<div style="position:absolute;left:396.85px;top:426.85px" class="cls_009"><span class="cls_009">numerous as the electrons outside.</span></div>
+<div style="position:absolute;left:70.30px;top:430.47px" class="cls_006"><span class="cls_006">particles providing the pressure are electrons.</span><span class="cls_007"><sup>2</sup></span><span class="cls_006"> Therefore, since the mass of</span></div>
+<div style="position:absolute;left:70.30px;top:442.43px" class="cls_006"><span class="cls_006">the electron is roughly 2000</span><span class="cls_007"><sup>3</sup></span><span class="cls_006"> times smaller than that of the proton, the mass</span></div>
+<div style="position:absolute;left:396.85px;top:445.68px" class="cls_008"><span class="cls_008"><sup>3</sup></span><span class="cls_009"> approximately 1836</span></div>
+<div style="position:absolute;left:70.30px;top:456.64px" class="cls_006"><span class="cls_006">limit of the white dwarf will be higher than for a neutron star.</span></div>
+<div style="position:absolute;left:70.30px;top:474.57px" class="cls_006"><span class="cls_006">a more precise demonstration</span></div>
+<div style="position:absolute;left:396.85px;top:484.63px" class="cls_008"><span class="cls_008"><sup>4</sup></span><span class="cls_009"> where G is the gravitational constant,</span></div>
+<div style="position:absolute;left:70.30px;top:492.51px" class="cls_006"><span class="cls_006">The relationship between the mass and radius of white dwarfs can be</span></div>
+<div style="position:absolute;left:397.31px;top:494.59px" class="cls_009"><span class="cls_009">M is the mass of the white dwarf, and</span></div>
+<div style="position:absolute;left:70.30px;top:504.46px" class="cls_006"><span class="cls_006">derived using an energy minimization argument. The energy of the white</span></div>
+<div style="position:absolute;left:397.11px;top:504.56px" class="cls_009"><span class="cls_009">R is its radius.</span></div>
+<div style="position:absolute;left:70.30px;top:516.42px" class="cls_006"><span class="cls_006">dwarf can be approximated by taking it to be the sum of its gravitational</span></div>
+<div style="position:absolute;left:70.30px;top:528.37px" class="cls_006"><span class="cls_006">potential energy and kinetic energy. The gravitational potential energy of a</span></div>
+<div style="position:absolute;left:70.30px;top:538.07px" class="cls_006"><span class="cls_006">unit mass piece of white dwarf, E</span><span class="cls_011"><sub>g</sub></span><span class="cls_006">, will be on the order of</span><span class="cls_010"> −</span><span class="cls_006">GM/R.</span><span class="cls_007"><sup>4</sup></span></div>
+<div style="position:absolute;left:70.30px;top:552.28px" class="cls_006"><span class="cls_006">The kinetic energy of the unit mass, E</span><span class="cls_011"><sub>k</sub></span><span class="cls_006">, will primarily come from the</span></div>
+<div style="position:absolute;left:396.85px;top:560.80px" class="cls_008"><span class="cls_008"><sup>5</sup></span><span class="cls_009"> Since the electrons are degenerate,</span></div>
+<div style="position:absolute;left:70.30px;top:562.98px" class="cls_006"><span class="cls_006">motion of neutrons, so it will be approximately N</span><span class="cls_010">(</span><span class="cls_006">Δp</span><span class="cls_010">)</span><span class="cls_011"><sup>2</sup></span><span class="cls_006">/2m, where p is the</span></div>
+<div style="position:absolute;left:396.85px;top:570.76px" class="cls_009"><span class="cls_009">we can estimate p to be on the order</span></div>
+<div style="position:absolute;left:70.30px;top:576.19px" class="cls_006"><span class="cls_006">average neutron momentum, m is the electron mass, and N is the number</span></div>
+<div style="position:absolute;left:396.85px;top:580.72px" class="cls_009"><span class="cls_009">of the uncertainty in momentum, Δp,</span></div>
+<div style="position:absolute;left:70.30px;top:585.89px" class="cls_006"><span class="cls_006">of neutron per unit mass.</span><span class="cls_007"><sup>5</sup></span><span class="cls_006"> Solving for the kinetic energy per unit mass, E</span><span class="cls_011"><sub>k</sub></span><span class="cls_006">,</span></div>
+<div style="position:absolute;left:396.85px;top:590.69px" class="cls_009"><span class="cls_009">given by the uncertainty principle,</span></div>
+<div style="position:absolute;left:70.30px;top:600.10px" class="cls_006"><span class="cls_006">we find that</span></div>
+<div style="position:absolute;left:396.85px;top:600.65px" class="cls_009"><span class="cls_009">which says that ΔpΔx is on the order</span></div>
+<div style="position:absolute;left:396.85px;top:610.61px" class="cls_009"><span class="cls_009">of the reduced Planck constant, h. Δx</span></div>
+<div style="position:absolute;left:186.90px;top:620.39px" class="cls_011"><span class="cls_011">2</span></div>
+<div style="position:absolute;left:396.85px;top:620.57px" class="cls_009"><span class="cls_009">will be on the order of the average</span></div>
+<div style="position:absolute;left:160.35px;top:621.28px" class="cls_006"><span class="cls_006">N</span><span class="cls_010">(</span><span class="cls_006">Δp</span><span class="cls_010">)</span></div>
+<div style="position:absolute;left:137.10px;top:627.35px" class="cls_006"><span class="cls_006">E</span><span class="cls_011"><sub>k</sub></span><span class="cls_010"> ≈</span></div>
+<div style="position:absolute;left:194.68px;top:619.81px" class="cls_010"><span class="cls_010">≈</span><span class="cls_006"> </span><span class="cls_018">Nh</span><span class="cls_019">2</span><span class="cls_018">n</span><span class="cls_019"><sup>2/3</sup></span></div>
+<div style="position:absolute;left:243.15px;top:619.81px" class="cls_010"><span class="cls_010">≈</span><span class="cls_006"> </span><span class="cls_018">M</span><span class="cls_019"><sup>2/3</sup></span><span class="cls_018">N</span><span class="cls_019"><sup>5/3</sup></span><span class="cls_018">h</span><span class="cls_019"><sup>2</sup></span></div>
+<div style="position:absolute;left:363.15px;top:627.72px" class="cls_006"><span class="cls_006">(4)</span></div>
+<div style="position:absolute;left:396.85px;top:630.54px" class="cls_009"><span class="cls_009">distance between neutrons, which will</span></div>
+<div style="position:absolute;left:169.57px;top:633.88px" class="cls_006"><span class="cls_006">2m</span></div>
+<div style="position:absolute;left:216.71px;top:633.88px" class="cls_006"><span class="cls_006">2m</span></div>
+<div style="position:absolute;left:267.89px;top:633.49px" class="cls_006"><span class="cls_006">2mR</span><span class="cls_011"><sup>2</sup></span></div>
+<div style="position:absolute;left:396.85px;top:639.35px" class="cls_009"><span class="cls_009">be approximately n</span><span class="cls_012">−</span><span class="cls_013">1/3</span><span class="cls_009">. Since there</span></div>
+<div style="position:absolute;left:70.30px;top:644.58px" class="cls_006"><span class="cls_006">The neutron star will be at equilibrium when its total energy,</span><span class="cls_010"> (</span><span class="cls_006">E</span><span class="cls_011"><sub>g</sub></span><span class="cls_010"> +</span><span class="cls_006"> E</span><span class="cls_011"><sub>k</sub></span><span class="cls_010"> )</span><span class="cls_006">, is</span></div>
+<div style="position:absolute;left:396.85px;top:650.13px" class="cls_009"><span class="cls_009">are N</span><span class="cls_014"> ·</span><span class="cls_009"> M neutron in the neutron star,</span></div>
+<div style="position:absolute;left:117.92px;top:656.91px" class="cls_006"><span class="cls_006">. At this point, the kinetic and gravitational potential energies</span></div>
+<div style="position:absolute;left:70.30px;top:654.65px" class="cls_006"><span class="cls_006">minimized</span><span class="cls_007"><sup>6</sup></span></div>
+<div style="position:absolute;left:396.85px;top:660.42px" class="cls_009"><span class="cls_009">where M is the star’s mass and its</span></div>
+<div style="position:absolute;left:70.30px;top:668.86px" class="cls_006"><span class="cls_006">should be comparable, so we may derive a rough mass-radius relationship</span></div>
+<div style="position:absolute;left:396.85px;top:669.49px" class="cls_009"><span class="cls_009">volume is on the order of R</span><span class="cls_013"><sup>3</sup></span><span class="cls_009">, n will be</span></div>
+<div style="position:absolute;left:70.30px;top:680.82px" class="cls_006"><span class="cls_006">by equating their magnitudes:</span></div>
+<div style="position:absolute;left:396.85px;top:679.45px" class="cls_009"><span class="cls_009">on the order of N M/R</span><span class="cls_013"><sup>3</sup></span><span class="cls_009">.</span></div>
+<div style="position:absolute;left:396.85px;top:690.03px" class="cls_008"><span class="cls_008"><sup>6</sup></span><span class="cls_009"> This is strictly equivalent to the</span></div>
+<div style="position:absolute;left:396.85px;top:699.99px" class="cls_009"><span class="cls_009">Chandrasekhar derivation, which is</span></div>
+<div style="position:absolute;left:183.96px;top:702.37px" class="cls_006"><span class="cls_006">GM</span></div>
+<div style="position:absolute;left:237.04px;top:700.53px" class="cls_006"><span class="cls_006">M</span><span class="cls_011"><sup>2/3</sup></span><span class="cls_006">N</span><span class="cls_011"><sup>5/3</sup></span><span class="cls_006">h</span><span class="cls_011"><sup>2</sup></span></div>
+<div style="position:absolute;left:154.65px;top:708.06px" class="cls_010"><span class="cls_010">|</span><span class="cls_006">E</span><span class="cls_011"><sub>g</sub></span><span class="cls_010">| ≈</span></div>
+<div style="position:absolute;left:203.57px;top:708.06px" class="cls_010"><span class="cls_010">=</span><span class="cls_006">E</span><span class="cls_011"><sub>k</sub></span><span class="cls_010"> ≈</span></div>
+<div style="position:absolute;left:363.15px;top:708.44px" class="cls_006"><span class="cls_006">(5)</span></div>
+<div style="position:absolute;left:396.85px;top:709.96px" class="cls_009"><span class="cls_009">based on the virial theorem</span></div>
+<div style="position:absolute;left:188.87px;top:714.59px" class="cls_006"><span class="cls_006">R</span></div>
+<div style="position:absolute;left:250.20px;top:714.21px" class="cls_006"><span class="cls_006">2mR</span><span class="cls_011"><sup>2</sup></span></div>
+<div style="position:absolute;left:70.30px;top:725.14px" class="cls_006"><span class="cls_006">Solving this for the radius, R, gives</span></div>
+<div style="position:absolute;left:240.47px;top:741.46px" class="cls_011"><span class="cls_011">2</span></div>
+<div style="position:absolute;left:216.49px;top:742.04px" class="cls_006"><span class="cls_006">N</span><span class="cls_011"><sup>5/3</sup></span><span class="cls_006">h</span></div>
+<div style="position:absolute;left:190.72px;top:749.00px" class="cls_006"><span class="cls_006">R</span><span class="cls_010">≈</span></div>
+<div style="position:absolute;left:363.15px;top:749.38px" class="cls_006"><span class="cls_006">(6)</span></div>
+<div style="position:absolute;left:210.47px;top:755.46px" class="cls_006"><span class="cls_006">2mGM</span><span class="cls_011"><sup>1/3</sup></span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:851px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2bdb94ba-e4ca-11e9-9d71-0cc47a792c0a_id_2bdb94ba-e4ca-11e9-9d71-0cc47a792c0a_files/background2.jpg" width=595 height=841></div>
+<div style="position:absolute;left:302.10px;top:34.74px" class="cls_015"><span class="cls_015">neutron stars & nuclear physics - report</span></div>
+<div style="position:absolute;left:531.90px;top:34.74px" class="cls_015"><span class="cls_015">2</span></div>
+<div style="position:absolute;left:70.30px;top:77.78px" class="cls_006"><span class="cls_006">However, if the neutron velocity in a neutron star should be relativistic</span></div>
+<div style="position:absolute;left:70.30px;top:88.47px" class="cls_006"><span class="cls_006">; p</span><span class="cls_011"><sup>2</sup></span><span class="cls_006">/2m should be replaced by the relativistic approximation pc for the</span></div>
+<div style="position:absolute;left:70.30px;top:101.69px" class="cls_006"><span class="cls_006">kinetic energy. With this substitution, we find</span></div>
+<div style="position:absolute;left:225.05px;top:121.71px" class="cls_006"><span class="cls_006">M</span><span class="cls_011"><sup>1/3</sup></span><span class="cls_006">N</span><span class="cls_011"><sup>4/3</sup></span><span class="cls_006">hc</span></div>
+<div style="position:absolute;left:166.88px;top:128.67px" class="cls_006"><span class="cls_006">E</span><span class="cls_011"><sub>krelativistic</sub></span><span class="cls_010"> ≈</span></div>
+<div style="position:absolute;left:363.16px;top:129.04px" class="cls_006"><span class="cls_006">(7)</span></div>
+<div style="position:absolute;left:246.28px;top:135.19px" class="cls_006"><span class="cls_006">R</span></div>
+<div style="position:absolute;left:70.30px;top:146.70px" class="cls_006"><span class="cls_006">If we equate this to the magnitude of Eg, we find that R drops out and the</span></div>
+<div style="position:absolute;left:396.85px;top:152.54px" class="cls_008"><span class="cls_008"><sup>7</sup></span><span class="cls_009"> saturation of nuclear forces, thus B/A</span></div>
+<div style="position:absolute;left:70.30px;top:158.66px" class="cls_006"><span class="cls_006">mass, M, is forced to be</span></div>
+<div style="position:absolute;left:396.85px;top:162.51px" class="cls_009"><span class="cls_009">is near constant, comes from the liquid</span></div>
+<div style="position:absolute;left:242.38px;top:172.34px" class="cls_006"><span class="cls_006">)</span><span class="cls_011"><sub>3/2</sub></span></div>
+<div style="position:absolute;left:396.85px;top:172.47px" class="cls_009"><span class="cls_009">drop model of the nucleus</span></div>
+<div style="position:absolute;left:224.55px;top:172.34px" class="cls_006"><span class="cls_006">( hc</span></div>
+<div style="position:absolute;left:179.72px;top:183.27px" class="cls_006"><span class="cls_006">M</span><span class="cls_011"><sub>lim</sub></span><span class="cls_010"> ≈</span><span class="cls_006"> N</span><span class="cls_011"><sup>2</sup></span></div>
+<div style="position:absolute;left:363.15px;top:184.98px" class="cls_006"><span class="cls_006">(8)</span></div>
+<div style="position:absolute;left:233.53px;top:191.13px" class="cls_006"><span class="cls_006">G</span></div>
+<div style="position:absolute;left:396.85px;top:192.84px" class="cls_008"><span class="cls_008"><sup>8</sup></span><span class="cls_009"> also from the liquid drop model,</span></div>
+<div style="position:absolute;left:396.85px;top:202.81px" class="cls_009"><span class="cls_009">nuclear surface correction due to lack</span></div>
+<div style="position:absolute;left:396.85px;top:212.77px" class="cls_009"><span class="cls_009">of neighbours</span></div>
+<div style="position:absolute;left:396.85px;top:221.19px" class="cls_008"><span class="cls_008"><sup>9</sup></span><span class="cls_009"> p-p Coulomb repulsion</span></div>
+<div style="position:absolute;left:70.30px;top:227.37px" class="cls_004"><span class="cls_004">(2)</span><span class="cls_016"> </span><span class="cls_005">安定な原子核の陽子と中性子星の量について</span></div>
+<div style="position:absolute;left:70.30px;top:247.25px" class="cls_006"><span class="cls_006">The binding energy of a nucleus is given by the semi-empirical Bethe-Weizsäcker</span></div>
+<div style="position:absolute;left:396.85px;top:252.81px" class="cls_008"><span class="cls_008"><sup>10</sup></span><span class="cls_009"> The actual form of the asymmetry</span></div>
+<div style="position:absolute;left:70.30px;top:259.20px" class="cls_006"><span class="cls_006">mass formula :</span></div>
+<div style="position:absolute;left:396.85px;top:262.77px" class="cls_009"><span class="cls_009">term can again be derived by mod-</span></div>
+<div style="position:absolute;left:396.85px;top:272.73px" class="cls_009"><span class="cls_009">elling the nucleus as a Fermi ball of</span></div>
+<div style="position:absolute;left:201.87px;top:276.50px" class="cls_006"><span class="cls_006">Z</span><span class="cls_010">(</span><span class="cls_006">Z</span><span class="cls_010"> −</span><span class="cls_006"> 1</span><span class="cls_010">)</span></div>
+<div style="position:absolute;left:261.01px;top:275.62px" class="cls_010"><span class="cls_010">(</span><span class="cls_006">A</span><span class="cls_010">−</span><span class="cls_006">2Z</span><span class="cls_010">)</span><span class="cls_011"><sup>2</sup></span></div>
+<div style="position:absolute;left:101.54px;top:282.57px" class="cls_006"><span class="cls_006">E</span><span class="cls_011"><sub>B</sub></span><span class="cls_010"> =</span><span class="cls_006"> a</span><span class="cls_011"><sub>V</sub></span><span class="cls_006"> A</span></div>
+<div style="position:absolute;left:181.85px;top:282.57px" class="cls_010"><span class="cls_010">−</span><span class="cls_006">a</span><span class="cls_011"><sub>C</sub></span></div>
+<div style="position:absolute;left:240.43px;top:282.57px" class="cls_010"><span class="cls_010">−</span><span class="cls_006">a</span><span class="cls_011"><sub>A</sub></span></div>
+<div style="position:absolute;left:304.41px;top:282.57px" class="cls_010"><span class="cls_010">±</span><span class="cls_006"> δ</span><span class="cls_010">(</span><span class="cls_006">A, Z</span><span class="cls_010">)</span></div>
+<div style="position:absolute;left:363.15px;top:282.95px" class="cls_006"><span class="cls_006">(9)</span></div>
+<div style="position:absolute;left:396.85px;top:282.70px" class="cls_009"><span class="cls_009">protons and neutrons. Its total kinetic</span></div>
+<div style="position:absolute;left:166.41px;top:288.68px" class="cls_006"><span class="cls_006">z</span></div>
+<div style="position:absolute;left:176.10px;top:288.68px" class="cls_006"><span class="cls_006">}</span></div>
+<div style="position:absolute;left:210.68px;top:289.04px" class="cls_006"><span class="cls_006">A</span><span class="cls_020"><sup>1/3</sup></span></div>
+<div style="position:absolute;left:278.24px;top:289.10px" class="cls_006"><span class="cls_006">A</span></div>
+<div style="position:absolute;left:313.39px;top:289.06px" class="cls_006"><span class="cls_006">|</span></div>
+<div style="position:absolute;left:323.80px;top:289.06px" class="cls_006"><span class="cls_006">{z</span></div>
+<div style="position:absolute;left:338.46px;top:289.06px" class="cls_006"><span class="cls_006">}</span></div>
+<div style="position:absolute;left:190.84px;top:293.44px" class="cls_006"><span class="cls_006">|</span></div>
+<div style="position:absolute;left:210.63px;top:293.44px" class="cls_006"><span class="cls_006">{z</span></div>
+<div style="position:absolute;left:234.68px;top:293.44px" class="cls_006"><span class="cls_006">}</span></div>
+<div style="position:absolute;left:249.42px;top:292.91px" class="cls_006"><span class="cls_006">|</span></div>
+<div style="position:absolute;left:271.91px;top:292.91px" class="cls_006"><span class="cls_006">{z</span></div>
+<div style="position:absolute;left:298.65px;top:292.91px" class="cls_006"><span class="cls_006">}</span></div>
+<div style="position:absolute;left:396.85px;top:292.66px" class="cls_009"><span class="cls_009">energy is</span></div>
+<div style="position:absolute;left:129.20px;top:299.10px" class="cls_017"><span class="cls_017">(</span><span class="cls_011">i</span><span class="cls_017">)</span></div>
+<div style="position:absolute;left:161.28px;top:299.26px" class="cls_017"><span class="cls_017">(</span><span class="cls_011">ii</span><span class="cls_017">)</span></div>
+<div style="position:absolute;left:323.21px;top:299.63px" class="cls_017"><span class="cls_017">(</span><span class="cls_011">v</span><span class="cls_017">)</span></div>
+<div style="position:absolute;left:208.70px;top:304.02px" class="cls_017"><span class="cls_017">(</span><span class="cls_011">iii</span><span class="cls_017">)</span></div>
+<div style="position:absolute;left:270.26px;top:303.49px" class="cls_017"><span class="cls_017">(</span><span class="cls_011">iv</span><span class="cls_017">)</span></div>
+<div style="position:absolute;left:444.33px;top:307.33px" class="cls_009"><span class="cls_009">3</span></div>
+<div style="position:absolute;left:423.95px;top:312.39px" class="cls_009"><span class="cls_009">E</span><span class="cls_013"><sub>k</sub></span><span class="cls_014"> =</span></div>
+<div style="position:absolute;left:444.33px;top:312.39px" class="cls_009"><span class="cls_009">5</span><span class="cls_014">(</span><span class="cls_009">N</span><span class="cls_013">p</span><span class="cls_009">ε</span><span class="cls_013"><sup>Fp</sup></span><span class="cls_014"> +</span><span class="cls_009">N</span><span class="cls_013">n</span><span class="cls_009">ε</span><span class="cls_013"><sup>Fn</sup></span><span class="cls_014">)</span></div>
+<div style="position:absolute;left:70.30px;top:319.37px" class="cls_006"><span class="cls_006">The first three terms can be defined as (i) the volume term</span><span class="cls_007"><sup>7</sup></span><span class="cls_006">, (ii) the surface</span></div>
+<div style="position:absolute;left:396.85px;top:331.06px" class="cls_009"><span class="cls_009">where N</span><span class="cls_013"><sub>p</sub></span><span class="cls_009"> , N</span><span class="cls_013"><sub>n</sub></span><span class="cls_009"> are the numbers of</span></div>
+<div style="position:absolute;left:70.30px;top:331.32px" class="cls_006"><span class="cls_006">term</span><span class="cls_007"><sup>8</sup></span><span class="cls_006">, (iii) the coulomb term</span><span class="cls_007"><sup>9</sup></span><span class="cls_006">. The pairing term (v) corresponds to the</span></div>
+<div style="position:absolute;left:396.85px;top:341.03px" class="cls_009"><span class="cls_009">protons and neutrons and F are</span></div>
+<div style="position:absolute;left:70.30px;top:345.54px" class="cls_006"><span class="cls_006">fact that a small energy shift favorizes paired nucleons, or even-even nuclei.</span></div>
+<div style="position:absolute;left:396.85px;top:350.99px" class="cls_009"><span class="cls_009">their Fermi energies. Since they are</span></div>
+<div style="position:absolute;left:396.85px;top:360.05px" class="cls_009"><span class="cls_009">proportional to N</span><span class="cls_013"><sup>2/3</sup></span><span class="cls_009">,</span></div>
+<div style="position:absolute;left:70.30px;top:363.47px" class="cls_006"><span class="cls_006">The important term to justify 1:1 ratio is (iv), the symmetry term.</span></div>
+<div style="position:absolute;left:432.49px;top:375.59px" class="cls_009"><span class="cls_009">E</span><span class="cls_013"><sub>k</sub></span><span class="cls_009"> ∝</span><span class="cls_014"> (</span><span class="cls_009">N</span><span class="cls_013"><sup>5/3</sup></span></div>
+<div style="position:absolute;left:460.63px;top:380.85px" class="cls_013"><span class="cls_013">p</span></div>
+<div style="position:absolute;left:472.77px;top:375.59px" class="cls_014"><span class="cls_014">+</span><span class="cls_009">N</span><span class="cls_013"><sup>5/3</sup></span></div>
+<div style="position:absolute;left:487.23px;top:380.85px" class="cls_013"><span class="cls_013">n</span></div>
+<div style="position:absolute;left:498.14px;top:376.56px" class="cls_014"><span class="cls_014">)</span></div>
+<div style="position:absolute;left:70.30px;top:381.40px" class="cls_006"><span class="cls_006">In filling up the shell models, N=Z is favored. The Pauli exclusion principle</span></div>
+<div style="position:absolute;left:70.30px;top:393.36px" class="cls_006"><span class="cls_006">states that no two identical fermions can occupy exactly the same quantum</span></div>
+<div style="position:absolute;left:396.85px;top:392.83px" class="cls_009"><span class="cls_009">The leading expansion in the differ-</span></div>
+<div style="position:absolute;left:396.85px;top:402.79px" class="cls_009"><span class="cls_009">ence is then</span></div>
+<div style="position:absolute;left:70.30px;top:405.31px" class="cls_006"><span class="cls_006">state in an atom. At a given energy level, there are only finitely many</span></div>
+<div style="position:absolute;left:70.30px;top:417.27px" class="cls_006"><span class="cls_006">quantum states available for particles. Thus, in the nucleus is that as more</span></div>
+<div style="position:absolute;left:415.21px;top:420.04px" class="cls_009"><span class="cls_009">(</span></div>
+<div style="position:absolute;left:534.91px;top:420.04px" class="cls_009"><span class="cls_009">)</span></div>
+<div style="position:absolute;left:479.90px;top:428.28px" class="cls_009"><span class="cls_009">5</span></div>
+<div style="position:absolute;left:489.75px;top:426.82px" class="cls_014"><span class="cls_014">(</span><span class="cls_009">N</span><span class="cls_013"><sub>n</sub></span><span class="cls_014"> −</span><span class="cls_009"> N</span><span class="cls_013"><sub>p</sub></span><span class="cls_014">)</span><span class="cls_013"><sup>2</sup></span></div>
+<div style="position:absolute;left:70.30px;top:429.22px" class="cls_006"><span class="cls_006">particles are "added", these particles must occupy higher energy levels,</span></div>
+<div style="position:absolute;left:397.07px;top:433.67px" class="cls_009"><span class="cls_009">E</span><span class="cls_013"><sub>k</sub></span><span class="cls_009"> ∝</span></div>
+<div style="position:absolute;left:421.71px;top:432.38px" class="cls_014"><span class="cls_014">(</span><span class="cls_009">N</span><span class="cls_013"><sub>p</sub></span><span class="cls_014"> +</span><span class="cls_009"> N</span><span class="cls_013"><sub>n</sub></span><span class="cls_014">)</span><span class="cls_013"><sup>5/3</sup></span><span class="cls_014"> +</span></div>
+<div style="position:absolute;left:542.52px;top:433.34px" class="cls_014"><span class="cls_014">+</span><span class="cls_009">O</span><span class="cls_014">(</span><span class="cls_009">ΔN</span><span class="cls_013">2</span><span class="cls_014">)</span><span class="cls_009">.</span></div>
+<div style="position:absolute;left:479.90px;top:439.14px" class="cls_009"><span class="cls_009">9</span></div>
+<div style="position:absolute;left:486.37px;top:439.12px" class="cls_014"><span class="cls_014">(</span><span class="cls_009">N</span><span class="cls_013"><sub>p</sub></span><span class="cls_014"> +</span><span class="cls_009"> N</span><span class="cls_013"><sub>n</sub></span><span class="cls_014">)</span><span class="cls_013"><sup>1/3</sup></span></div>
+<div style="position:absolute;left:70.30px;top:441.18px" class="cls_006"><span class="cls_006">increasing the total energy of the nucleus (and decreasing the binding</span></div>
+<div style="position:absolute;left:70.30px;top:453.13px" class="cls_006"><span class="cls_006">energy).</span></div>
+<div style="position:absolute;left:396.85px;top:456.37px" class="cls_009"><span class="cls_009">Thus we get</span></div>
+<div style="position:absolute;left:70.30px;top:471.07px" class="cls_006"><span class="cls_006">Protons and neutrons, being distinct types of particles, occupy different</span></div>
+<div style="position:absolute;left:417.45px;top:473.14px" class="cls_009"><span class="cls_009">3</span></div>
+<div style="position:absolute;left:492.61px;top:471.68px" class="cls_014"><span class="cls_014">(</span><span class="cls_009">N</span><span class="cls_013"><sub>n</sub></span><span class="cls_014"> −</span><span class="cls_009"> N</span><span class="cls_013"><sub>p</sub></span><span class="cls_014">)</span><span class="cls_013"><sup>2</sup></span></div>
+<div style="position:absolute;left:397.07px;top:478.20px" class="cls_009"><span class="cls_009">E</span><span class="cls_013"><sub>k</sub></span><span class="cls_014"> =</span></div>
+<div style="position:absolute;left:483.68px;top:478.53px" class="cls_009"><span class="cls_009">ε</span><span class="cls_013"><sub>F</sub></span></div>
+<div style="position:absolute;left:535.94px;top:477.24px" class="cls_014"><span class="cls_014">+</span><span class="cls_009"> O</span><span class="cls_014">((</span><span class="cls_009">ΔN</span><span class="cls_013"><sub>np</sub></span><span class="cls_014">)</span><span class="cls_013"><sup>4</sup></span><span class="cls_014">)</span></div>
+<div style="position:absolute;left:70.30px;top:483.02px" class="cls_006"><span class="cls_006">quantum states. The imbalance between the number of protons and neu-</span></div>
+<div style="position:absolute;left:417.45px;top:473.14px" class="cls_009"><span class="cls_009">5ε</span><span class="cls_013">F</span><span class="cls_014">(</span><span class="cls_009">N</span><span class="cls_013">p</span><span class="cls_014"> +</span><span class="cls_009">N</span><span class="cls_013">n</span><span class="cls_014">)+</span><span class="cls_009">3</span></div>
+<div style="position:absolute;left:494.36px;top:483.67px" class="cls_014"><span class="cls_014">(</span><span class="cls_009">N</span><span class="cls_013"><sub>p</sub></span><span class="cls_014"> +</span><span class="cls_009"> N</span><span class="cls_013"><sub>n</sub></span><span class="cls_014">)</span></div>
+<div style="position:absolute;left:70.30px;top:494.98px" class="cls_006"><span class="cls_006">trons causes the energy to be higher than it needs to be, for a given number</span></div>
+<div style="position:absolute;left:406.92px;top:500.80px" class="cls_009"><span class="cls_009">3</span></div>
+<div style="position:absolute;left:450.46px;top:499.90px" class="cls_014"><span class="cls_014">(</span><span class="cls_009">A</span><span class="cls_014">−</span><span class="cls_009">2Z</span><span class="cls_014">)</span><span class="cls_013"><sup>2</sup></span></div>
+<div style="position:absolute;left:70.30px;top:504.67px" class="cls_006"><span class="cls_006">of nucleons</span><span class="cls_007"><sup>10</sup></span><span class="cls_006">.</span></div>
+<div style="position:absolute;left:396.95px;top:505.86px" class="cls_014"><span class="cls_014">=</span></div>
+<div style="position:absolute;left:441.53px;top:506.20px" class="cls_009"><span class="cls_009">ε</span><span class="cls_013"><sub>F</sub></span></div>
+<div style="position:absolute;left:488.89px;top:504.90px" class="cls_014"><span class="cls_014">+</span><span class="cls_009">O</span><span class="cls_014">((</span><span class="cls_009">A</span><span class="cls_014">−</span><span class="cls_009">2Z</span><span class="cls_014">)</span><span class="cls_013"><sup>4</sup></span><span class="cls_014">)</span><span class="cls_009">.</span></div>
+<div style="position:absolute;left:406.92px;top:500.80px" class="cls_009"><span class="cls_009">5ε</span><span class="cls_013">F</span><span class="cls_009"> A</span><span class="cls_014">+</span><span class="cls_009">3</span></div>
+<div style="position:absolute;left:465.75px;top:511.66px" class="cls_009"><span class="cls_009">A</span></div>
+<div style="position:absolute;left:396.85px;top:521.54px" class="cls_009"><span class="cls_009">The first term contributes to the</span></div>
+<div style="position:absolute;left:396.85px;top:531.51px" class="cls_009"><span class="cls_009">volume term in the semi-empirical</span></div>
+<div style="position:absolute;left:396.85px;top:541.47px" class="cls_009"><span class="cls_009">mass formula, and the second term is</span></div>
+<div style="position:absolute;left:396.85px;top:551.43px" class="cls_009"><span class="cls_009">precisely the symmetry term.</span></div>
+<div style="position:absolute;left:70.30px;top:578.71px" class="cls_004"><span class="cls_004">(3) 50%</span><span class="cls_005">中性子、</span><span class="cls_004">50%</span><span class="cls_016">Λ</span><span class="cls_005">粒子の中性子星、</span><span class="cls_004">100%</span><span class="cls_005">中性子の中性子星との比較</span></div>
+<div style="position:absolute;left:70.30px;top:600.58px" class="cls_006"><span class="cls_006">The simplest argument to compare the masses of a pure-neutron neutron</span></div>
+<div style="position:absolute;left:70.30px;top:612.53px" class="cls_006"><span class="cls_006">star, and a neutron-hyperon (Λ baryon) mixed neutron star, without solv-</span></div>
+<div style="position:absolute;left:70.30px;top:624.49px" class="cls_006"><span class="cls_006">ing the TOV system,</span></div>
+<div style="position:absolute;left:168.37px;top:639.02px" class="cls_006"><span class="cls_006">(</span></div>
+<div style="position:absolute;left:113.96px;top:645.59px" class="cls_006"><span class="cls_006">dP</span></div>
+<div style="position:absolute;left:195.37px;top:639.02px" class="cls_006"><span class="cls_006">P )(</span></div>
+<div style="position:absolute;left:237.29px;top:639.02px" class="cls_006"><span class="cls_006">4πr</span><span class="cls_011"><sup>3</sup></span><span class="cls_006">P)(</span></div>
+<div style="position:absolute;left:294.87px;top:639.02px" class="cls_006"><span class="cls_006">2Gm)</span><span class="cls_017">−</span><span class="cls_011">1</span></div>
+<div style="position:absolute;left:128.24px;top:645.59px" class="cls_010"><span class="cls_010">=−</span><span class="cls_018"><sup>Gm</sup></span><span class="cls_006">ρ</span></div>
+<div style="position:absolute;left:175.08px;top:651.29px" class="cls_006"><span class="cls_006">1</span><span class="cls_010">+</span></div>
+<div style="position:absolute;left:220.63px;top:651.29px" class="cls_006"><span class="cls_006">1</span><span class="cls_010">+</span></div>
+<div style="position:absolute;left:278.21px;top:651.29px" class="cls_006"><span class="cls_006">1</span><span class="cls_010">−</span></div>
+<div style="position:absolute;left:358.67px;top:651.66px" class="cls_006"><span class="cls_006">(10)</span></div>
+<div style="position:absolute;left:115.04px;top:657.82px" class="cls_006"><span class="cls_006">dr</span></div>
+<div style="position:absolute;left:149.99px;top:657.43px" class="cls_006"><span class="cls_006">r</span><span class="cls_011"><sup>2</sup></span></div>
+<div style="position:absolute;left:191.85px;top:657.43px" class="cls_006"><span class="cls_006">ρc</span><span class="cls_011"><sup>2</sup></span></div>
+<div style="position:absolute;left:242.16px;top:657.43px" class="cls_006"><span class="cls_006">mc</span><span class="cls_011"><sup>2</sup></span></div>
+<div style="position:absolute;left:298.46px;top:657.43px" class="cls_006"><span class="cls_006">rc</span><span class="cls_011"><sup>2</sup></span></div>
+<div style="position:absolute;left:70.30px;top:676.46px" class="cls_006"><span class="cls_006">with a complex equation of state,</span></div>
+<div style="position:absolute;left:199.83px;top:696.51px" class="cls_006"><span class="cls_006">φ</span><span class="cls_010">(</span><span class="cls_006">ρ, P</span><span class="cls_010">) =</span><span class="cls_006"> 0</span></div>
+<div style="position:absolute;left:358.66px;top:696.89px" class="cls_006"><span class="cls_006">(11)</span></div>
+<div style="position:absolute;left:70.30px;top:717.31px" class="cls_006"><span class="cls_006">can be stated as follows.</span></div>
+<div style="position:absolute;left:70.30px;top:735.24px" class="cls_006"><span class="cls_006">Replacing a down quark in a neutron by a strange quark for a lambda</span></div>
+<div style="position:absolute;left:70.30px;top:747.20px" class="cls_006"><span class="cls_006">baryon, by elasticity, increases the radius of the particle, thus having a</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:1702px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2bdb94ba-e4ca-11e9-9d71-0cc47a792c0a_id_2bdb94ba-e4ca-11e9-9d71-0cc47a792c0a_files/background3.jpg" width=595 height=841></div>
+<div style="position:absolute;left:302.10px;top:34.74px" class="cls_015"><span class="cls_015">neutron stars & nuclear physics - report</span></div>
+<div style="position:absolute;left:531.90px;top:34.74px" class="cls_015"><span class="cls_015">3</span></div>
+<div style="position:absolute;left:70.30px;top:77.78px" class="cls_006"><span class="cls_006">direct effect on the considered density in the TOV system. In a degenerate</span></div>
+<div style="position:absolute;left:396.85px;top:85.98px" class="cls_008"><span class="cls_008"><sup>11</sup></span><span class="cls_009"> Where x</span><span class="cls_013"><sub>F</sub></span><span class="cls_014"> =</span><span class="cls_009"> p</span><span class="cls_013"><sub>F</sub></span><span class="cls_009"> /m</span><span class="cls_013"><sub>e</sub></span><span class="cls_009"> c is linked to the</span></div>
+<div style="position:absolute;left:70.30px;top:89.73px" class="cls_006"><span class="cls_006">case, the density of a pure-neutron object will therefore by higher than that</span></div>
+<div style="position:absolute;left:396.85px;top:96.28px" class="cls_009"><span class="cls_009">electronic density by</span></div>
+<div style="position:absolute;left:70.30px;top:101.69px" class="cls_006"><span class="cls_006">of a mixed neutron-lambda object.</span></div>
+<div style="position:absolute;left:482.52px;top:107.68px" class="cls_009"><span class="cls_009">)</span><span class="cls_013"><sub>3</sub></span></div>
+<div style="position:absolute;left:452.92px;top:111.13px" class="cls_009"><span class="cls_009">8π</span></div>
+<div style="position:absolute;left:465.33px;top:107.68px" class="cls_009"><span class="cls_009">(mc</span></div>
+<div style="position:absolute;left:433.14px;top:116.20px" class="cls_009"><span class="cls_009">n</span><span class="cls_013"><sub>e</sub></span><span class="cls_014"> =</span></div>
+<div style="position:absolute;left:492.43px;top:115.23px" class="cls_009"><span class="cls_009">x</span><span class="cls_013">3F</span></div>
+<div style="position:absolute;left:70.30px;top:119.62px" class="cls_006"><span class="cls_006">The virial theorem then states</span></div>
+<div style="position:absolute;left:455.82px;top:122.00px" class="cls_009"><span class="cls_009">3</span></div>
+<div style="position:absolute;left:474.33px;top:122.00px" class="cls_009"><span class="cls_009">h</span></div>
+<div style="position:absolute;left:220.24px;top:137.01px" class="cls_011"><span class="cls_011">2</span></div>
+<div style="position:absolute;left:266.40px;top:131.70px" class="cls_006"><span class="cls_006">( M)</span><span class="cls_011">2</span><span class="cls_006"> 1</span></div>
+<div style="position:absolute;left:135.58px;top:138.27px" class="cls_006"><span class="cls_006">3 PV</span><span class="cls_010"> = −</span><span class="cls_006">U</span><span class="cls_011"><sub>G</sub></span><span class="cls_010">≃ −</span><span class="cls_018"><sup>GM</sup></span></div>
+<div style="position:absolute;left:228.02px;top:143.97px" class="cls_010"><span class="cls_010">= −</span><span class="cls_006">α</span><span class="cls_011"><sub>G</sub></span><span class="cls_006">hc</span></div>
+<div style="position:absolute;left:358.67px;top:144.34px" class="cls_006"><span class="cls_006">(12)</span></div>
+<div style="position:absolute;left:211.32px;top:150.49px" class="cls_006"><span class="cls_006">R</span></div>
+<div style="position:absolute;left:274.42px;top:150.49px" class="cls_006"><span class="cls_006">m</span><span class="cls_011"><sub>p</sub></span><span class="cls_006">     R</span></div>
+<div style="position:absolute;left:70.30px;top:168.10px" class="cls_006"><span class="cls_006">The pressure term is directly linked with the density, as stated before</span><span class="cls_007"><sup>11</sup></span></div>
+<div style="position:absolute;left:242.74px;top:184.12px" class="cls_006"><span class="cls_006">(</span></div>
+<div style="position:absolute;left:202.36px;top:189.43px" class="cls_011"><span class="cls_011">4/3</span></div>
+<div style="position:absolute;left:179.79px;top:189.43px" class="cls_010"><span class="cls_010">(</span><span class="cls_006">3π</span><span class="cls_011"><sup>2</sup></span><span class="cls_010">)</span></div>
+<div style="position:absolute;left:268.69px;top:184.12px" class="cls_006"><span class="cls_006">1 )</span></div>
+<div style="position:absolute;left:160.42px;top:196.39px" class="cls_006"><span class="cls_006">P</span><span class="cls_010">=</span></div>
+<div style="position:absolute;left:215.83px;top:195.05px" class="cls_006"><span class="cls_006">hcn</span><span class="cls_011"><sup>4/3</sup></span></div>
+<div style="position:absolute;left:229.35px;top:200.97px" class="cls_011"><span class="cls_011">e</span></div>
+<div style="position:absolute;left:249.45px;top:196.39px" class="cls_006"><span class="cls_006">1</span><span class="cls_010">−</span></div>
+<div style="position:absolute;left:358.67px;top:196.76px" class="cls_006"><span class="cls_006">(13)</span></div>
+<div style="position:absolute;left:187.21px;top:202.53px" class="cls_006"><span class="cls_006">12π</span><span class="cls_011"><sup>2</sup></span></div>
+<div style="position:absolute;left:266.37px;top:202.92px" class="cls_006"><span class="cls_006">x</span><span class="cls_011"><sub>F</sub></span></div>
+<div style="position:absolute;left:70.30px;top:221.23px" class="cls_006"><span class="cls_006">Therefore, since the pressure will be higher in the pure-neutron object</span></div>
+<div style="position:absolute;left:70.30px;top:235.18px" class="cls_006"><span class="cls_006">compared to a mixed neutron-lambda object, provided the same radius, the</span></div>
+<div style="position:absolute;left:70.30px;top:249.13px" class="cls_006"><span class="cls_006">neutron-only neutron star will have a higher mass limit than the neutron-lambda</span></div>
+<div style="position:absolute;left:70.30px;top:263.07px" class="cls_006"><span class="cls_006">neutron star</span></div>
+</div>
+
+</body>
+</html>
